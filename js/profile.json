@@ -298,7 +298,7 @@
 				},
 				{
 					"courseCode": "005",
-					"courseName": "Englsih",
+					"courseName": "English",
 					"courseScore": "5.00",
 					"sn": 5
 				},
@@ -435,95 +435,25 @@
 	],
 	"works": [
 		{
-			"sn":6,"link":"","workPosition": "Scout Troop Leader",
-			"periodStart": "April 2010",
+			"sn":2,
+			"link":"www.druba-fsy.com",
+			"workPosition": "Co-Founder",
+			"periodStart": "September 2011",
 			"periodEnd": "May 2012",
-			"organisation": "JNV,Washim",
-			"experience": "It was nice to be a part of Scouting.Arranged camps,hikes and awareness rallies."
+			"organisation": "Druba-FSY",
+			"experience": "It was nice to do some non-profit work for underprivileged children."
 		},
 		{
-			"sn":5,"link":"http://wcepace.in/","workPosition": "Asst. Program Director in Events",
-			"periodStart": "April 2015",
-			"periodEnd": "March 2016",
-			"organisation": "Personality Advancement Circle of Engineers.",
-			"experience": "Learnt how to organize professional events and actvites, how to manage resources and make most out of everything."
-		},
-		{
-			"sn":4,"link":"http://wcepace.in/","workPosition": "Joint. Skills Developer",
-			"periodStart": "April 2016",
-			"periodEnd": "January 2017",
-			"organisation": "Personality Advancement Circle of Engineers.",
-			"experience": "Good to arrange Meet ups for professional skill development of fellow PACErs."
-		},
-		{
-			"sn":3,"link":"http://wcepace.in/","workPosition": "Cheif. Skills Developer",
-			"periodStart": "January 2017",
-			"periodEnd": "Present",
-			"organisation": "Personality Advancement Circle of Engineers.",
-			"experience": "Good to arrange Meet ups for professional skill development of fellow PACErs."
-		},
-		{
-			"sn":2,"link":"http://pitchteq.com/","workPosition": "Lead PHP Developer",
-			"periodStart": "July 2016",
-			"periodEnd": "Present",
-			"organisation": "PitchTeQ ",
-			"experience": "A group of college students established a web solutions startup. Worked on an e-commerce project."
-		},
-		{
-			"sn":1,"link":"http://www.praxisinfotech.com/","workPosition": "Web Development Intern",
-			"periodStart": "June 2017",
-			"periodEnd": "Present",
-			"organisation": "Praxis Infotech ",
-			"experience": "Joined Praxis under TIFAC scheme. Working on a business app using goole map apis."
+			"sn":1,
+			"link":"http://sheikhimtiaz.wordpress.com/",
+			"workPosition": "Lecturer",
+			"periodStart": "August 2011",
+			"periodEnd": "March 2014",
+			"organisation": "Four Teachers Coaching(FTC)",
+			"experience": "I took physics and math class."
 		}
 	],
 	"projects":[
-		{
-
-			"sn":14, "projectTitle": "Traffic Rules",
-			"periodStart": "July 2015",
-			"periodEnd": "Nov 2015",
-			"toolsUsed": ["Blender", "Movie Maker"],
-			"tags": ["blender", "animation", "3d-modelling", "traffic rules"],
-			"shortInfo": "Its a 3D animation video made using Blender Tool for spreading awareness regarding Traffic rules. Mini project for semester III.",
-			"link":"https://github.com/moghya/Traffic-Rules"
-		},
-		{
-			"sn":13, "projectTitle": "Smart Hospital Management",
-			"periodStart": "Aug 2015",
-			"periodEnd": "Sep 2015",
-			"toolsUsed": ["c++", "qt"],
-			"tags": ["oop", "c++", "qt", "gui", "files"],
-			"shortInfo": "C++ Qt Standalone Application keeps track of every patient and its visits. Data collected can be used for Projects of Data Mining and Machine Learning as data sets.",
-			"link":"https://github.com/moghya/smartHMS"
-		},
-		{
-			"sn":12, "projectTitle": "Seat Allocation",
-			"periodStart": "Dec 2015",
-			"periodEnd": "Dec 2015",
-			"toolsUsed": ["c++"],
-			"tags": ["c++", "gayle-shapely", "ds", "oop"],
-			"shortInfo": "Simulation of college seat allocation process. Choice filling and Seat Allocation are performed. Modified Gayle-Shapely Algorithm implemented. Can be scaled using C++ CGI for deployment.",
-			"link":"https://github.com/moghya/collegeSeatAllocationPrototype"
-		},
-		{
-			"sn":11, "projectTitle": "Online External Examination Portal",
-			"periodStart": "Feb 2016",
-			"periodEnd": "May 2016",
-			"toolsUsed": ["php", "js", "mysql", "html", "css", "bootstrap"],
-			"tags": ["php", "js", "bootstrap", "mysql"],
-			"shortInfo": "It's a web application developed using PHP , MySQL, Bootstrap, JavaScript etc. for conducting practical exams online.",
-			"link":"https://github.com/moghya/external-exam-portal"
-		},
-		{
-			"sn":9, "projectTitle": "LookIn",
-			"periodStart": "Mar 2016",
-			"periodEnd": "May 2016",
-			"toolsUsed": ["python", "sqllite3", "beautifulsoup", "requests"],
-			"tags": ["search engine", "python", "indexing", "web scraping"],
-			"shortInfo": "It's a search engine made using Python, Beautifulsoup . Which crawls downloaded websites and indexes them. After one time indexing it delivers search results ",
-			"link":""
-		},
 		{
 			"sn":3, "projectTitle": "dsalglib ",
 			"periodStart": "May 2016",
@@ -550,60 +480,6 @@
 			"tags": ["python","data analytics"],
 			"shortInfo": "This is a simple flask web app implementation of a paper that I'm writing 'Making Sense of Numbers'. This paper proposes method for deriving inferences about prowessness of a stduent using attained graded.",
 			"link":"http://novatoscript.pythonanywhere.com/"
-		},
-		{
-			"sn":7, "projectTitle": "FollowScreen",
-			"periodStart": "Jul 2016",
-			"periodEnd": "Jul 2016",
-			"toolsUsed": ["python","pyautogui","tkinter"],
-			"tags": ["screen-recording","python","autmation"],
-			"shortInfo": "Its a screen recorder written in python. It records the screen activities.I used PyAutoGUI and PIL modules for this.Audio capturing is yet to be added.",
-			"link":"https://github.com/moghya/followscreen"
-		},
-		{
-			"sn":8, "projectTitle": "Digital Library Portal",
-			"periodStart": "Feb 2017",
-			"periodEnd": "May 2017",
-			"toolsUsed": ["QuilJs","php","mysql","JavaScript"],
-			"tags": ["webapp","php","mysql","js","materialize"],
-			"shortInfo": "According to the requirements taken Developed a Digital Library Portal for College Library. All of the sections are dynamic and everything is editable using Admin Panel. Used Quill-Js for implementing Editor for Admin. PHP, MySQL is used.",
-			"link":"#"
-		},
-		{
-			"sn":5, "projectTitle": "Book Bank Allotment System",
-			"periodStart": "Jan 2017",
-			"periodEnd": "May 2017",
-			"toolsUsed": ["php","mongodb","js"],
-			"tags": ["mongodb","nosql","php"],
-			"shortInfo": "Developed a Web Application using PHP and MongoDB for Book Bank Allotment done by AGCL library of WCE, Sangli. Automated process of Allocation, it was done manually and use to take almost 15-20 days for completion. Our system does it in a single day.",
-			"link":"#"
-		},
-		{
-			"sn":4, "projectTitle": "Detection and Prevention of Black hole Attack in MANET",
-			"periodStart": "Jul 2016",
-			"periodEnd": "Nov 2016",
-			"toolsUsed": ["c++","ns2","tcl","awk"],
-			"tags": ["c++","blackhole-attack","ns2"],
-			"shortInfo": "It was a Team Project. We made changes in AODV protocol to simulate Black hole attack in Mobile and Adhoc Network​ and later implemented techniques for prevention of the Attack.",
-			"link":"#"
-		},
-		{
-			"sn":10, "projectTitle": "JNV Washim Alumni Portal",
-			"periodStart": "Dec 2015",
-			"periodEnd": "Jan 2016",
-			"toolsUsed": ["php","mysql","js"],
-			"tags": ["webapp","php","mysql","js"],
-			"shortInfo": "Developed a Web Application for Alumni Portal of Jawahar Navodaya Vidyalaya,Washim. It's developed using PHP, HTML, CSS,JavaScript, Bootstrap. All out of scratch. We used MySQL database . Alumni of JNV Washim have to register here with there details and we can searchfor Alumnus with filters.",
-			"link":"http://www.jnvwashimalumni.org/"
-		},
-		{
-			"sn":6, "projectTitle": "toGithub",
-			"periodStart": "May 2017",
-			"periodEnd": "Present",
-			"toolsUsed": ["python","PyGithub","requests","beautifulsoup"],
-			"tags": ["scraping","git-api"],
-			"shortInfo": "A python app developed for scraping solutions from Sport Programming Websites and uploding them to Github.",
-			"link":"https://github.com/moghya/toGithub"
 		}
 	],
 	"summary": "Hi, I’m Imtiaz. I believe in Maths. I seek to learn and try to apply all that I learn in a way that makes life easier. I can design and develop technology solutions. Mathematics, Algorithms, Data Structures  and Machine Learning are my areas of Interest. I'm looking for an Internship where I can learn and grow by using my tech skills and make this world a better place.",
