@@ -455,7 +455,7 @@
 	],
 	"projects":[
 		{
-			"sn":3, "projectTitle": "dsalglib ",
+			"sn":1, "projectTitle": "dsalglib ",
 			"periodStart": "May 2016",
 			"periodEnd": "Present",
 			"toolsUsed": ["c++"],
@@ -464,7 +464,7 @@
 			"link":"http://moghya.me/dsalglib/"
 		},
 		{
-			"sn":1, "projectTitle": "Strategic Location using Facebook Data",
+			"sn":2, "projectTitle": "Strategic Location using Facebook Data",
 			"periodStart": "Dec 2016",
 			"periodEnd": "Dec 2016",
 			"toolsUsed": ["python","scikit-learn","ipynb","graph-api"],
@@ -473,7 +473,7 @@
 			"link":""
 		},
 		{
-			"sn":2, "projectTitle": "prowessIndex",
+			"sn":3, "projectTitle": "prowessIndex",
 			"periodStart": "June 2017",
 			"periodEnd": "June 2017",
 			"toolsUsed": ["python","flask","pandas"],
