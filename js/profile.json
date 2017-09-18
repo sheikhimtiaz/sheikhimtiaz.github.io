@@ -340,13 +340,13 @@
 					"courseCode": "004",
 					"courseName": "Biology",
 					"courseScore": "5.00",
-					"sn": 3
+					"sn": 4
 				},
 				{
 					"courseCode": "005",
 					"courseName": "Higher Mathematics",
 					"courseScore": "5.00",
-					"sn": 3
+					"sn": 5
 				}
 			]
 		}
