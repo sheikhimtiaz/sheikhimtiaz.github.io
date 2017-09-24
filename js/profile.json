@@ -473,7 +473,16 @@
 			"link":""
 		},
 		{
-			"sn":3, "projectTitle": "Author Activate",
+			"sn":3, "projectTitle": "Garbage Cleaner",
+			"periodStart": "Sophomore Year",
+			"periodEnd": "",
+			"toolsUsed": ["java","jphoenix","Netbeans","Gluon"],
+			"tags": ["windows-os","system-app","java"],
+			"shortInfo": "Garbage Cleaner is a windows system app to clean garbage data files from memory and erase unncessary files from hard disk. It is the best one-click utility software for windows.",
+			"link":""
+		},
+		{
+			"sn":4, "projectTitle": "Author Activate",
 			"periodStart": "Junior Year",
 			"periodEnd": "",
 			"toolsUsed": ["javascript","facebook-graph-api","MEAN.js","openshift","python"],
