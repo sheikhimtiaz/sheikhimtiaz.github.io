@@ -455,31 +455,31 @@
 	],
 	"projects":[
 		{
-			"sn":1, "projectTitle": "dsalglib ",
-			"periodStart": "May 2016",
-			"periodEnd": "Present",
-			"toolsUsed": ["c++"],
-			"tags": ["ds", "algo", "template", "c++"],
-			"shortInfo": "Its a ready to use data structures and algorithms c++ template library.Many useful data structures and algorithms are implemented . One should just focus on his/her project necessity and dsalglib will take care of data structures and algorithms.",
-			"link":"http://moghya.me/dsalglib/"
-		},
-		{
-			"sn":2, "projectTitle": "Strategic Location using Facebook Data",
-			"periodStart": "Dec 2016",
-			"periodEnd": "Dec 2016",
-			"toolsUsed": ["python","scikit-learn","ipynb","graph-api"],
-			"tags": ["machine-learning","regression","python"],
-			"shortInfo": "Choosing optimal location for business using data from social media websites contribute largely to the profit.Our System helps business choose optimal location for higher number of check-ins .indirectly helping businesses to increase their profits.We have used to machine learning techniques to help improve our system.",
+			"sn":1, "projectTitle": "ACM 100",
+			"periodStart": "Freshers Year",
+			"periodEnd": "",
+			"toolsUsed": ["c","c++","java","python","codeblocks","atom"],
+			"tags": ["ds", "algo", "template", "c++", "java", "python"],
+			"shortInfo": "I have learned many data structures, algorithms, c++ template library. You can find me on UVa, Codeforces, Hackerrank, LightOJ, Codechef & USACO",
 			"link":""
 		},
 		{
-			"sn":3, "projectTitle": "prowessIndex",
-			"periodStart": "June 2017",
-			"periodEnd": "June 2017",
-			"toolsUsed": ["python","flask","pandas"],
-			"tags": ["python","data analytics"],
-			"shortInfo": "This is a simple flask web app implementation of a paper that I'm writing 'Making Sense of Numbers'. This paper proposes method for deriving inferences about prowessness of a stduent using attained graded.",
-			"link":"http://novatoscript.pythonanywhere.com/"
+			"sn":2, "projectTitle": "Pegasus Ride",
+			"periodStart": "Sophomore Year",
+			"periodEnd": "",
+			"toolsUsed": ["java","Android","google-firebase","MySQL"],
+			"tags": ["machine-learning","database","java"],
+			"shortInfo": "This is an Android app that keeps the track of available private automobiles in an area. User can share their info with their friends. Many automobiles sit idle for years. The goal of this project was to manage them remotely. Users could find a ride in an area or could lend their friend automobiles.",
+			"link":""
+		},
+		{
+			"sn":3, "projectTitle": "Author Activate",
+			"periodStart": "Junior Year",
+			"periodEnd": "",
+			"toolsUsed": ["javascript","facebook-graph-api","MEAN.js","openshift","python"],
+			"tags": ["python","data analytics","webapp"],
+			"shortInfo": "An webapp with facebook log in integration where users can find their personality and writting pattern using our backend data analytic system.",
+			"link":""
 		}
 	],
 	"summary": "Hi, I’m Imtiaz. I believe in Maths. I seek to learn and try to apply all that I learn in a way that makes life easier. I can design and develop technology solutions. Mathematics, Algorithms, Data Structures  and Machine Learning are my areas of Interest. I'm looking for an Internship where I can learn and grow by using my tech skills and make this world a better place.",
