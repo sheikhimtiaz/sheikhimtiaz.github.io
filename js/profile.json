@@ -62,21 +62,21 @@
 					"courseCode": "EEE109Q",
 					"courseName": "Electrical Circuits",
 					"courseScore": "-.--",
-					"sn": 7
+					"sn": 6
 
 				},
 				{
 					"courseCode": "EEE110Q",
 					"courseName": "Electrical Circuits Lab",
 					"courseScore": "3.25",
-					"sn": 8
+					"sn": 7
 
 				},
 				{
 					"courseCode": "CSE143",
 					"courseName": "Discrete Mathematics",
 					"courseScore": "2",
-					"sn": 9
+					"sn": 8
 
 				},
 				{
@@ -90,77 +90,77 @@
 					"courseCode": "PHY103E",
 					"courseName": "Mechanics, Wave, Heat & Thermodynamics",
 					"courseScore": "2.75",
-					"sn": 6
+					"sn": 10
 
 				},
 				{
 					"courseCode": "IPE106",
 					"courseName": "Engineering Graphics",
 					"courseScore": "2.50",
-					"sn": 10
+					"sn": 11
 
 				},
 				{
 					"courseCode": "IPE108",
 					"courseName": "Workshop Practice",
 					"courseScore": "3.00",
-					"sn": 11
+					"sn": 12
 
 				},
 				{
 					"courseCode": "CSE100",
 					"courseName": "Project Work",
 					"courseScore": "3.00",
-					"sn": 14
+					"sn": 13
 
 				},
 				{
 					"courseCode": "PHY202B",
 					"courseName": "Basic Physics Lab",
 					"courseScore": "2.50",
-					"sn": 12
+					"sn": 14
 
 				},
 				{
 					"courseCode": "MAT204D",
 					"courseName": "Complex Variables, Laplace Transform and Fourier Series",
 					"courseScore": "2.00",
-					"sn": 13
+					"sn": 15
 
 				},
 				{
 					"courseCode": "ECO103",
 					"courseName": "Principles of Economics",
 					"courseScore": "2.75",
-					"sn": 15
+					"sn": 16
 
 				},
 				{
 					"courseCode": "CSE233",
 					"courseName": "Object Oriented Programming Language",
 					"courseScore": "3.00",
-					"sn": 16
+					"sn": 17
 
 				},
 				{
 					"courseCode": "CSE239",
 					"courseName": "Numerical Analysis",
 					"courseScore": "2.25",
-					"sn": 34
+					"sn": 18
 
 				},
 				{
 					"courseCode": "CSE240",
 					"courseName": "Numerical Analysis Lab",
 					"courseScore": "3.00",
-					"sn": 18
+					"sn": 19
 
 				},
 				{
 					"courseCode": "CSE333",
 					"courseName": "Database System",
 					"courseScore": "2.00",
-					"sn": 32
+					"sn": 20
 
 				},
 				{
@@ -174,85 +174,7 @@
 					"courseCode": "---",
 					"courseName": "---",
 					"courseScore": "---",
-					"sn": 7
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 8
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 29
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 17
-
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
 					"sn": 22
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 19
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 26
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 33
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 25
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 24
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 20
-
-				},
-				{
-					"courseCode": "---",
-					"courseName": "---",
-					"courseScore": "---",
-					"sn": 30
 
 				},
 				{
@@ -266,28 +188,106 @@
 					"courseCode": "---",
 					"courseName": "---",
 					"courseScore": "---",
+					"sn": 24
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 25
+
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 26
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
 					"sn": 27
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 27
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 29
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 30
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 31
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 32
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 33
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 34
+
+				},
+				{
+					"courseCode": "---",
+					"courseName": "---",
+					"courseScore": "---",
+					"sn": 35
 
 				},
 				{
 					"courseCode": "CSE200",
 					"courseName": "Project Work",
 					"courseScore": "3.50",
-					"sn": 9
+					"sn": 36
 
 				},
 				{
 					"courseCode": "CSE300",
 					"courseName": "Project Work",
 					"courseScore": "3.00",
-					"sn": 28
+					"sn": 37
 
 				},
 				{
 					"courseCode": "CSE400",
 					"courseName": "Thesis",
 					"courseScore": "3.50",
-					"sn": 31
+					"sn": 38
 
 				}
 			]
