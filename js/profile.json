@@ -10,8 +10,8 @@
 				"'Elahi 8/b, Shurma Abashik Elaka, Akhalia, Sylhet."
 			]
 		},
-		"email": "sheikhimtiazcse@student.sust.edu",
-		"mob": "+880184932509"
+		"email": "imticorei54@gmail.com",
+		"mob": "+8801849325209"
 	},
 	"educations": [
 		{
@@ -59,6 +59,34 @@
 
 				},
 				{
+					"courseCode": "EEE109Q",
+					"courseName": "Electrical Circuits",
+					"courseScore": "-.--",
+					"sn": 7
+
+				},
+				{
+					"courseCode": "EEE110Q",
+					"courseName": "Electrical Circuits Lab",
+					"courseScore": "3.25",
+					"sn": 8
+
+				},
+				{
+					"courseCode": "CSE143",
+					"courseName": "Discrete Mathematics",
+					"courseScore": "2",
+					"sn": 9
+
+				},
+				{
+					"courseCode": "CSE144",
+					"courseName": "Discrete Mathematics Lab",
+					"courseScore": "2.5",
+					"sn": 9
+
+				},
+				{
 					"courseCode": "PHY103E",
 					"courseName": "Mechanics, Wave, Heat & Thermodynamics",
 					"courseScore": "2.75",
@@ -77,6 +105,13 @@
 					"courseName": "Workshop Practice",
 					"courseScore": "3.00",
 					"sn": 11
+
+				},
+				{
+					"courseCode": "CSE100",
+					"courseName": "Project Work",
+					"courseScore": "3.00",
+					"sn": 14
 
 				},
 				{
@@ -235,13 +270,6 @@
 
 				},
 				{
-					"courseCode": "CSE100",
-					"courseName": "Project Work",
-					"courseScore": "3.00",
-					"sn": 14
-
-				},
-				{
 					"courseCode": "CSE200",
 					"courseName": "Project Work",
 					"courseScore": "3.50",
@@ -251,14 +279,14 @@
 				{
 					"courseCode": "CSE300",
 					"courseName": "Project Work",
-					"courseScore": "-.--",
+					"courseScore": "3.00",
 					"sn": 28
 
 				},
 				{
 					"courseCode": "CSE400",
 					"courseName": "Thesis",
-					"courseScore": "-.--",
+					"courseScore": "3.50",
 					"sn": 31
 
 				}
