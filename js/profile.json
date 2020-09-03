@@ -464,30 +464,30 @@
 	"works": [
 		{
 			"sn":3,
-			"link":"www.druba-fsy.com",
-			"workPosition": "Co-Founder",
-			"periodStart": "September 2011",
-			"periodEnd": "May 2012",
-			"organisation": "Druba-FSY",
-			"experience": "It was nice to do some non-profit work for underprivileged children."
-		},
-		{
-			"sn":2,
 			"link":"http://sheikhimtiaz.wordpress.com/",
 			"workPosition": "Lecturer",
 			"periodStart": "August 2011",
 			"periodEnd": "March 2014",
 			"organisation": "Four Teachers Coaching(FTC)",
-			"experience": "I took physics and math class."
+			"experience": "I gave lecture on physics and math topics."
 		},
 		{
-			"sn":1,
+			"sn":2,
 			"link":"https://selise.ch/",
 			"workPosition": "Software Engineer",
 			"periodStart": "October 2018",
 			"periodEnd": "Current",
 			"organisation": "Secure Link Services BD Ltd.",
-			"experience": "This is my first job in the software industry and I am learning a lot here."
+			"experience": "SELISE is an enterprise cloud application platform providing secure and scalable solutions where I worked on many projects such as SwissLife Private Wealth, SWICA Health Insurance, IG B2B, Incentive Destination Manager, WAgile, EBLife and many more."
+		},
+		{
+			"sn":1,
+			"link":"https://alo.sourcevo.com/",
+			"workPosition": "Opensource Contributor",
+			"periodStart": "March 2020",
+			"periodEnd": "Current",
+			"organisation": "Alo Reactive Platform",
+			"experience": "Full-Stack Reactive Actor Platform and Isomorphic Architectural Framework unifying and simplifying Actor Model, Real OOP, DDD, DCI, DbC, CQRS & Event-Sourcing"
 		}
 	],
 	"projects":[
