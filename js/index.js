@@ -137,7 +137,7 @@ $.get("js/profile.json",
 
 function onBodyLoad(){
 	console.log('body loaded');
-	$('#moghyaSays').css('display','block');
+	$('#imtiazSays').css('display','block');
 }
 
 $(document).ready(function(){
