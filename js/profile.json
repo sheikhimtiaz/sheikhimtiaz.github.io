@@ -463,15 +463,6 @@
 	],
 	"works": [
 		{
-			"sn":3,
-			"link":"http://sheikhimtiaz.wordpress.com/",
-			"workPosition": "Lecturer",
-			"periodStart": "August 2011",
-			"periodEnd": "March 2014",
-			"organisation": "Four Teachers Coaching(FTC)",
-			"experience": "I gave lecture on physics and math topics."
-		},
-		{
 			"sn":2,
 			"link":"https://selise.ch/",
 			"workPosition": "Software Engineer",
