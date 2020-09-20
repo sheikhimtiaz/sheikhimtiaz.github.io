@@ -544,16 +544,6 @@
 			"sn":1
 		},
 		{
-			"name":"Maths",
-			"icon":"maths.svg",
-			"sn":2
-		},
-		{
-			"name":"Armed Forces",
-			"icon":"soldier.svg",
-			"sn":3
-		},
-		{
 			"name":"Reading",
 			"icon":"book.svg",
 			"sn":4
