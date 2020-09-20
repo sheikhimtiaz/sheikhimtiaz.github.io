@@ -444,7 +444,7 @@
 			"toolsUsed": ["c","c++","java","python","codeblocks","atom"],
 			"tags": ["ds", "algo", "template", "c++", "java", "python"],
 			"shortInfo": "I have learned many data structures, algorithms, c++ template library. You can find me on UVa, Codeforces, Hackerrank, LightOJ, Codechef & USACO",
-			"link":""
+			"link":"https://github.com/sheikhimtiaz/acm-one-hundred"
 		},
 		{
 			"sn":2, "projectTitle": "Pegasus Ride",
@@ -453,7 +453,7 @@
 			"toolsUsed": ["java","Android","google-firebase","MySQL"],
 			"tags": ["machine-learning","database","java"],
 			"shortInfo": "This is an Android app that keeps the track of available private automobiles in an area. User can share their info with their friends. Many automobiles sit idle for years. The goal of this project was to manage them remotely. Users could find a ride in an area or could lend their friend automobiles.",
-			"link":""
+			"link":"https://github.com/sheikhimtiaz/pegasus-ride"
 		},
 		{
 			"sn":3, "projectTitle": "Garbage Cleaner",
@@ -462,7 +462,7 @@
 			"toolsUsed": ["java","jphoenix","Netbeans","Gluon"],
 			"tags": ["windows-os","system-app","java"],
 			"shortInfo": "Garbage Cleaner is a windows system app to clean garbage data files from memory and erase unncessary files from hard disk. It is the best one-click utility software for windows.",
-			"link":""
+			"link":"https://github.com/sheikhimtiaz/garbage-cleaner"
 		},
 		{
 			"sn":4, "projectTitle": "Author Activate",
@@ -471,7 +471,7 @@
 			"toolsUsed": ["javascript","facebook-graph-api","MEAN.js","openshift","python"],
 			"tags": ["python","data analytics","webapp"],
 			"shortInfo": "An webapp with facebook log in integration where users can find their personality and writting pattern using our backend data analytic system.",
-			"link":""
+			"link":"https://github.com/sheikhimtiaz/auth-activate"
 		}
 	],
 	"summary": "Hi, I’m Imtiaz. I believe in Maths. I seek to learn and try to apply all that I learn in a way that makes life easier. I can design and develop technology solutions. Mathematics, Algorithms, Data Structures  and Machine Learning are my areas of Interest. I'm looking for an Internship where I can learn and grow by using my tech skills and make this world a better place.",
