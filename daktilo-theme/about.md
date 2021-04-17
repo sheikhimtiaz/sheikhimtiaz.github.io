@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sheikh Imtiaz Ahmed
-subtitle: Just who the hell you think I am?
+title: About Me
+subtitle: Minor Progression
 permalink: /about/
 ---
 
@@ -11,3 +11,6 @@ Software Engineer at SELISE rockin' software.
 SUBSEL Research Alumni.
 I love to write. Anything. Codes, Articles, Stories.
 Catch me every Saturday at 06:00 PM on Weekend Commits.
+
+
+<script>  document.getElementsByTagName('body')[0].classList.remove('glitch'); </script>
