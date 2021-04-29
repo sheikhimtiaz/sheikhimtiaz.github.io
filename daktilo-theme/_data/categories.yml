@@ -1,8 +1,11 @@
-- slug: actor-model
-  name: Actor Model
+# - slug: actor-model
+#   name: Actor Model
 
-- slug: akka
-  name: Akka
+# - slug: akka
+#   name: Akka
 
-- slug: knative
-  name: Knative
+# - slug: knative
+#   name: Knative
+
+- slug: story
+  name: Stories

@@ -3,24 +3,9 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.im/design/tool/2015/09/07/welcome-to-jekyll.html/</loc>
+      <loc>http://sheikhimtiaz.me/story/2016/08/27/test-post.html/</loc>
       
-        <lastmod>2015-09-07T05:34:01+06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.7</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://sheikhimtiaz.im/tool/2014/08/20/sample-post.html/</loc>
-      
-        <lastmod>2014-08-20T05:56:45+06:00</lastmod>
+        <lastmod>2016-08-27T06:00:01+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,24 +21,9 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.im/about/</loc>
+      <loc>http://sheikhimtiaz.me/about/</loc>
       
-        <lastmod>2021-04-29T05:18:22+06:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://sheikhimtiaz.im/blog/</loc>
-      
-        <lastmod>2021-04-29T05:18:22+06:00</lastmod>
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,9 +36,54 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.im/categories/design/</loc>
+      <loc>http://sheikhimtiaz.me/categories/actor-model/</loc>
       
-        <lastmod>2021-04-29T05:18:22+06:00</lastmod>
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://sheikhimtiaz.me/categories/akka/</loc>
+      
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://sheikhimtiaz.me/blog/</loc>
+      
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://sheikhimtiaz.me/categories/design/</loc>
+      
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -83,9 +98,9 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.im/</loc>
+      <loc>http://sheikhimtiaz.me/</loc>
       
-        <lastmod>2021-04-29T05:18:22+06:00</lastmod>
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -97,12 +112,27 @@
     
   
     
+    <url>
+      <loc>http://sheikhimtiaz.me/categories/knative/</loc>
+      
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
   
     
     <url>
-      <loc>http://sheikhimtiaz.im/categories/productivity/</loc>
+      <loc>http://sheikhimtiaz.me/categories/productivity/</loc>
       
-        <lastmod>2021-04-29T05:18:22+06:00</lastmod>
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -119,9 +149,24 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.im/categories/tools/</loc>
+      <loc>http://sheikhimtiaz.me/categories/story/</loc>
       
-        <lastmod>2021-04-29T05:18:22+06:00</lastmod>
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://sheikhimtiaz.me/categories/tools/</loc>
+      
+        <lastmod>2021-04-29T09:03:23+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

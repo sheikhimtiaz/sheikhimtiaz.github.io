@@ -4,7 +4,7 @@ description: >
   Computer Scientist, Enterprise and Cloud Software Engineer, Polyglot Developer.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://sheikhimtiaz.im" # the base hostname & protocol for your site
+url: "http://sheikhimtiaz.me" # the base hostname & protocol for your site
 
 author:
   fullname: Sheikh Imtiaz Ahmed
