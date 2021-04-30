@@ -1,0 +1,14 @@
+I"�<ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a class="post-allign" href="/daktilo-theme/story/2016/08/27/test-post.html">
+                <span class="post-teaser__title">“কিছু কথা” যোগীপাড়াবাসীর</span>
+                <span class="post-teaser__date">27 August 2016</span>
+            </a>
+        </li>
+    
+</ul>
+
+<script>  document.getElementsByTagName('body')[0].classList.remove('glitch'); </script>
+
+:ET
