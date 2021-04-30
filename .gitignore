@@ -9,7 +9,7 @@ portfolio/dist/
 portfolio/tmp/
 portfolio/app/**/*.js
 portfolio/app/**/*.js.map
-
+daktilo-theme/.jekyll-cache
 # dependencies
 portfolio/node_modules/
 portfolio/bower_components/
