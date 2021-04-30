@@ -159,6 +159,13 @@ strong {
     margin-bottom: 45px;
     font-weight: 700;
 }
+@media only screen and (min-width: 414px) {
+    .post-allign{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  }
 
 .post-teaser__title {
     font-size: 22px;
