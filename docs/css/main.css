@@ -64,6 +64,8 @@ strong { color: #333333; }
 
 .post-teaser { margin-bottom: 45px; font-weight: 700; }
 
+@media only screen and (min-width: 414px) { .post-allign { display: flex; align-items: center; justify-content: space-between; } }
+
 .post-teaser__title { font-size: 22px; color: #333333; }
 
 .post-teaser__date { font-size: 16px; float: right; vertical-align: middle; color: #828282; }
