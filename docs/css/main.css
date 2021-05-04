@@ -209,4 +209,6 @@ strong { color: #333333; }
 /* Custom */
 .go-home { text-align: center; }
 
+.discord-icon { color: #828282; opacity: .5; position: relative; top: 5px; width: 27px; height: 28px; }
+
 /*# sourceMappingURL=main.css.map */
