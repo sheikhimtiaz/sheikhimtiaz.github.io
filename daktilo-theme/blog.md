@@ -16,5 +16,3 @@ permalink: /blog/
     {% endfor %}
 </ul>
 
-
-<script>  document.getElementsByTagName('body')[0].classList.remove('glitch'); </script>

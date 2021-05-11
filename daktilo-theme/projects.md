@@ -1,8 +1,8 @@
 ---
-layout: about
-title: About Me
-subtitle: Enterprise and Cloud Software Engineer
-permalink: /about/
+layout: projects
+title: Projects
+subtitle: Let a hundred flowers bloom
+permalink: /projects/
 ---
 
 <!-- Hello!
