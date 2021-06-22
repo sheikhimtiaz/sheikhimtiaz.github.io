@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: Projects
-subtitle: Let a hundred flowers bloom
+subtitle: Let a thousand flowers bloom
 permalink: /projects/
 ---
 
