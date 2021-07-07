@@ -6,9 +6,79 @@
 </description>
     <link>http://sheikhimtiaz.me/</link>
     <atom:link href="http://sheikhimtiaz.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Jun 2021 17:39:59 +0600</pubDate>
-    <lastBuildDate>Tue, 29 Jun 2021 17:39:59 +0600</lastBuildDate>
+    <pubDate>Thu, 08 Jul 2021 05:32:28 +0600</pubDate>
+    <lastBuildDate>Thu, 08 Jul 2021 05:32:28 +0600</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>The Gayeebi Lang</title>
+        <description>&lt;p&gt;I will share my understanding on the following topics in this series -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Combined Object-Lambda Architecture&lt;/li&gt;
+  &lt;li&gt;GraalVM&lt;/li&gt;
+  &lt;li&gt;Truffle Language Implementation API&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;[TBC]&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 05 May 2021 06:00:01 +0600</pubDate>
+        <link>http://sheikhimtiaz.me/softwares/2021/05/05/the-gayeebi-lang.html</link>
+        <guid isPermaLink="true">http://sheikhimtiaz.me/softwares/2021/05/05/the-gayeebi-lang.html</guid>
+        
+        
+        <category>softwares</category>
+        
+      </item>
+    
+      <item>
+        <title>Smart Contracts</title>
+        <description>&lt;p&gt;What is a smart contract?&lt;/p&gt;
+
+&lt;p&gt;How to write smart contracts?&lt;/p&gt;
+
+&lt;p&gt;Where to deploy them?&lt;/p&gt;
+
+&lt;p&gt;What are the use cases?&lt;/p&gt;
+
+&lt;p&gt;[TBC]&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 29 Apr 2021 06:00:01 +0600</pubDate>
+        <link>http://sheikhimtiaz.me/softwares/2021/04/29/smart-contracts.html</link>
+        <guid isPermaLink="true">http://sheikhimtiaz.me/softwares/2021/04/29/smart-contracts.html</guid>
+        
+        
+        <category>softwares</category>
+        
+      </item>
+    
+      <item>
+        <title>Would it help!</title>
+        <description>&lt;p&gt;This is some discrete thoughts of mine.&lt;/p&gt;
+
+&lt;p&gt;You know, we can divide our world into two or more separate distinct segments. Each segment is another different would to us. We create, simulate and emulate this world for a reason. Each world is valuable to us. We make sure that the components of one world do not collide or intersect with another. We can, but do not create more worlds because we have to take responsibilities for these worlds, every incidents happening in each world and how they co-operate. My family is my first and most important world for me like the most of us. Its my only comfort zone despite the fact that my father thinks of me as an academic failure. My family raised me and fueled me up for better living. But this world is running out of fuels. So, I create new worlds, one after another. Until I find a suitable world to gain energy from and fuel up my primitive world.&lt;/p&gt;
+
+&lt;p&gt;Now, this worlds are ready for me but they are not quite decorated in a order I need. So I panic! And then I wonder a little too. It took some time to get me actually thinking of the problem. A well defined problem is seventy percent solved. So I spend most of the time finding the solution rather than accepting and following a random solution. I reason. And that’s the thing I am talking about. Solutions don’t come easy. Somewhere in between facing the problem and having an actual solution of the problem, I face serious level depression about my capability, my surroundings and available resources. I am only desperate when I am insecure about my job. So I try to convince myself.&lt;/p&gt;
+
+&lt;p&gt;I must do my part and things will come through. There is a plan in everything. It all adds up in the end. And even if does not, would it help worrying?!&lt;/p&gt;
+
+&lt;p&gt;I eat. I pray. I work.&lt;/p&gt;
+
+&lt;p&gt;I live a peaceful life. I stay motivated. I hang out with friends time to time. This is my life and its ending one moment at a time.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading me out. I wish everyone finds a moment to enjoy what they have in life and work for a better tomorrow!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 20 Oct 2017 06:00:01 +0600</pubDate>
+        <link>http://sheikhimtiaz.me/rant/2017/10/20/would-it-help.html</link>
+        <guid isPermaLink="true">http://sheikhimtiaz.me/rant/2017/10/20/would-it-help.html</guid>
+        
+        
+        <category>rant</category>
+        
+      </item>
     
       <item>
         <title>“কিছু কথা” যোগীপাড়াবাসীর</title>
@@ -24,11 +94,11 @@
 
 </description>
         <pubDate>Sat, 27 Aug 2016 06:00:01 +0600</pubDate>
-        <link>http://sheikhimtiaz.me/story/2016/08/27/jogi-para-mess.html</link>
-        <guid isPermaLink="true">http://sheikhimtiaz.me/story/2016/08/27/jogi-para-mess.html</guid>
+        <link>http://sheikhimtiaz.me/rant/2016/08/27/jogi-para-mess.html</link>
+        <guid isPermaLink="true">http://sheikhimtiaz.me/rant/2016/08/27/jogi-para-mess.html</guid>
         
         
-        <category>story</category>
+        <category>rant</category>
         
       </item>
     
