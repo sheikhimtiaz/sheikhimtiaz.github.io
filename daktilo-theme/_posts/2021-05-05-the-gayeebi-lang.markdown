@@ -8,9 +8,25 @@ categories: [softwares]
 
 I will share my understanding on the following topics in this series -
 
-0. Combined Object-Lambda Architecture
-1. GraalVM
-2. Truffle Language Implementation API 
+1. Combined Object-Lambda Architecture
+2. GraalVM
+3. Truffle Language Implementation API 
+
+<br><br>
+
+## 1. Combined Object-Lambda Architecture
+
+<br>
+
+## 2. Graalvm
+
+<br>
+
+## 3. Truffle Language Implementation API 
+
+<br>
+
+
 
 [TBC]
 

@@ -6,9 +6,22 @@
 </description>
     <link>http://sheikhimtiaz.me/</link>
     <atom:link href="http://sheikhimtiaz.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Apr 2022 04:21:41 +0600</pubDate>
-    <lastBuildDate>Sat, 09 Apr 2022 04:21:41 +0600</lastBuildDate>
+    <pubDate>Thu, 04 May 2023 19:34:52 +0600</pubDate>
+    <lastBuildDate>Thu, 04 May 2023 19:34:52 +0600</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Actor Model</title>
+        <description>&lt;p&gt;A little bit history to start with. In computer science, the Actor model, first published in 1973, is a mathematical model of concurrent computation.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Apr 2022 06:00:01 +0600</pubDate>
+        <link>http://sheikhimtiaz.me/softwares/2022/04/10/actor-model.html</link>
+        <guid isPermaLink="true">http://sheikhimtiaz.me/softwares/2022/04/10/actor-model.html</guid>
+        
+        
+        <category>softwares</category>
+        
+      </item>
     
       <item>
         <title>The Gayeebi Lang</title>
@@ -19,6 +32,20 @@
   &lt;li&gt;GraalVM&lt;/li&gt;
   &lt;li&gt;Truffle Language Implementation API&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-combined-object-lambda-architecture&quot;&gt;1. Combined Object-Lambda Architecture&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-graalvm&quot;&gt;2. Graalvm&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-truffle-language-implementation-api&quot;&gt;3. Truffle Language Implementation API&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;[TBC]&lt;/p&gt;
 
