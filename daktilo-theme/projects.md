@@ -7,7 +7,7 @@ permalink: /projects/
 
 
 
-Going to share *briefly* about some of the **projects** that I have worked on.
+Going to share about some of the **projects** that I have worked on.
 
 ___
 

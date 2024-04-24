@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> The Gayeebi Lang: Part 1 — Dhaka 2021 &raquo;  Sheikh Imtiaz Ahmed</title>
+<meta name="description" content="Polyglot Programmer, Computer Scientist, Enterprise and Cloud Software Engineer.
+">
+<meta name="keywords" content="">
+<link rel="canonical" href="http://sheikhimtiaz.me/cstheory/2021/05/05/the-gayeebi-lang.html">
+        
+
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="The Gayeebi Lang: Part 1" />
+<meta name="twitter:description" content="Polyglot Programmer, Computer Scientist, Enterprise and Cloud Software Engineer.
+" />
+<meta name="twitter:image" content="http://sheikhimtiaz.me" />
+
+<!-- Google plus -->
+<meta name="author" content="https://www.google.com/+SheikhImtiazAhmed">
+<link rel="author" href="https://www.google.com/+SheikhImtiazAhmed">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Gayeebi Lang: Part 1">
+<meta property="og:description" content="Polyglot Programmer, Computer Scientist, Enterprise and Cloud Software Engineer.
+">
+<meta property="og:url" content="http://sheikhimtiaz.me/cstheory/2021/05/05/the-gayeebi-lang.html">
+<meta property="og:site_name" content="Sheikh Imtiaz Ahmed">
+
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" type='text/css'>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+
+  <link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="navigation">
+        <a href="/" class="logo">Sheikh Imtiaz Ahmed</a>
+
+        <ul class="menu">
+            <li class="menu__entry"><a href="/about">About</a></li>
+            <li class="menu__entry"><a href="/projects">Projects</a></li>
+            <li class="menu__entry"><a href="/blog">Blog</a></li>
+        </ul>
+    </div>
+
+    <ul class="social-links">
+
+        
+            <a href="https://linkedin.com/in/sheikhimtiaz" class="social-links__entry" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        
+
+        
+            <a href="https://twitter.com/_sheikhimtiaz" class="social-links__entry" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        
+
+        
+            <a href="https://github.com/sheikhimtiaz" class="social-links__entry" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        
+
+        <a href="https://discord.gg/FhKSjmg" class="social-links__entry discord-icon">
+            <img  style="margin: 0px;" src="/assets/discord.png"/>
+        </a>
+
+    </ul>
+</header>
+
+
+            <h1 class="page-title post-title">
+    <div class="page-title__text post-title__text">The Gayeebi Lang: Part 1</div>
+    <div class="page-title__subtitle post-title__subtitle">Dhaka 2021</div>
+</h1>
+
+
+
+<div class="content">
+    <p>I will share my understanding on the following topics in this series -</p>
+
+<ol>
+  <li>Combined Object-Lambda Architecture</li>
+  <li>GraalVM</li>
+  <li>Truffle Language Implementation API</li>
+</ol>
+
+<p><br /></p>
+
+<h1 id="understanding-combined-object-lambda-architecture-cola">Understanding Combined Object-Lambda Architecture (COLA)</h1>
+
+<p>The Combined Object-Lambda Architecture (COLA) is a modern architectural pattern that blends the strengths of both the Object-Oriented Programming (OOP) paradigm and the Lambda Architecture. It aims to provide a unified approach for building scalable, maintainable, and efficient distributed systems, particularly in the context of big data processing and real-time analytics.</p>
+
+<h2 id="object-oriented-programming-oop">Object-Oriented Programming (OOP)</h2>
+
+<p>OOP is a programming paradigm centered around the concept of “objects,” which encapsulate data and behavior. OOP promotes modularity, reusability, and extensibility through features such as encapsulation, inheritance, and polymorphism. However, traditional OOP paradigms may struggle with distributed systems’ challenges, such as scalability and fault tolerance.</p>
+
+<h2 id="lambda-architecture">Lambda Architecture</h2>
+
+<p>The Lambda Architecture is a design pattern for building large-scale, distributed systems that process both batch and real-time data streams. It comprises three layers: the batch layer, serving as a system of record for historical data processing; the speed layer, handling real-time data processing and analytics; and the serving layer, which combines results from both layers to provide queryable views to users. While effective, implementing and maintaining a Lambda Architecture can be complex and require managing multiple technologies and codebases.</p>
+
+<h2 id="key-principles-of-combined-object-lambda-architecture-cola">Key Principles of Combined Object-Lambda Architecture (COLA)</h2>
+
+<ol>
+  <li>
+    <p><strong>Unified Data Model:</strong> COLA promotes a unified data model that spans both batch and real-time processing. This model encapsulates the core entities and relationships within the system, facilitating consistency and coherence across different processing layers.</p>
+  </li>
+  <li>
+    <p><strong>Object-Oriented Design:</strong> COLA leverages OOP principles to design the core components and logic of the system. Objects represent real-world entities and encapsulate both data and behavior. This design promotes modularity, encapsulation, and code reuse, making the system easier to understand and maintain.</p>
+  </li>
+  <li>
+    <p><strong>Lambda Architecture Integration:</strong> COLA integrates the concepts of the Lambda Architecture to handle both batch and real-time data processing seamlessly. It leverages technologies such as Apache Spark for batch processing and Apache Flink or Apache Kafka Streams for real-time stream processing. By combining batch and stream processing, COLA enables comprehensive data analysis and insights generation across different time scales.</p>
+  </li>
+  <li>
+    <p><strong>Scalability and Fault Tolerance:</strong> COLA inherits the scalability and fault tolerance benefits of the Lambda Architecture. It can scale horizontally to handle increasing data volumes and accommodate growing user demands. Additionally, COLA incorporates fault tolerance mechanisms to ensure system resilience and reliability, such as data replication, checkpointing, and recovery strategies.</p>
+  </li>
+  <li>
+    <p><strong>Flexibility and Extensibility:</strong> COLA emphasizes flexibility and extensibility in system design. It allows developers to adapt the architecture to evolving requirements and integrate new technologies or data sources seamlessly. This flexibility enables COLA-based systems to stay agile and responsive to changing business needs.</p>
+  </li>
+</ol>
+
+<h2 id="benefits-of-combined-object-lambda-architecture-cola">Benefits of Combined Object-Lambda Architecture (COLA)</h2>
+
+<ul>
+  <li>
+    <p><strong>Unified Development Paradigm:</strong> COLA provides a unified development paradigm that combines the strengths of OOP and the Lambda Architecture, streamlining the development process and reducing complexity.</p>
+  </li>
+  <li>
+    <p><strong>Scalability and Performance:</strong> By leveraging distributed processing frameworks for both batch and real-time data, COLA enables scalable and high-performance data processing, catering to large-scale data volumes and real-time analytics requirements.</p>
+  </li>
+  <li>
+    <p><strong>Maintainability and Understandability:</strong> COLA’s object-oriented design promotes maintainability and understandability by encapsulating complexity within modular components and fostering code reuse and abstraction.</p>
+  </li>
+  <li>
+    <p><strong>Comprehensive Data Insights:</strong> COLA facilitates comprehensive data insights by integrating batch and real-time processing seamlessly, enabling organizations to derive actionable insights from historical and real-time data sources.</p>
+  </li>
+</ul>
+
+<p>In summary, the Combined Object-Lambda Architecture (COLA) offers a cohesive and scalable approach to building distributed systems for big data processing and real-time analytics, bridging the worlds of object-oriented programming and the Lambda Architecture. By embracing unified data models, OOP principles, and distributed processing technologies, COLA empowers organizations to derive valuable insights and drive informed decision-making from diverse data sources.</p>
+
+<p><br /></p>
+
+<h1 id="understanding-graalvm">Understanding GraalVM</h1>
+
+<p>GraalVM is a high-performance runtime that provides support for multiple programming languages and execution modes. Developed by Oracle Labs, GraalVM offers a polyglot runtime environment that allows developers to run applications written in different languages, including Java, JavaScript, Python, Ruby, and more, on a single virtual machine.</p>
+
+<h2 id="features-of-graalvm">Features of GraalVM</h2>
+
+<h3 id="polyglot-execution">Polyglot Execution</h3>
+
+<p>GraalVM supports polyglot execution, allowing developers to seamlessly interoperate between different programming languages within the same application. This capability enables developers to choose the best language for each component of their application, improving productivity and code maintainability.</p>
+
+<h3 id="high-performance">High Performance</h3>
+
+<p>GraalVM boasts high-performance execution for both Just-In-Time (JIT) compiled code and Ahead-Of-Time (AOT) compiled code. Its optimizing compiler technology optimizes code across different languages, resulting in faster execution speeds and reduced memory overhead.</p>
+
+<h3 id="native-image-generation">Native Image Generation</h3>
+
+<p>One of the key features of GraalVM is its ability to generate native images from JVM-based applications. Native images are standalone executables that do not require a JVM for execution, resulting in faster startup times and reduced memory consumption. This feature is particularly beneficial for deploying applications in resource-constrained environments, such as serverless computing platforms and containerized environments.</p>
+
+<h3 id="language-support">Language Support</h3>
+
+<p>GraalVM supports a wide range of programming languages, including:</p>
+
+<ul>
+  <li>Java</li>
+  <li>JavaScript (including Node.js)</li>
+  <li>Python</li>
+  <li>Ruby</li>
+  <li>R</li>
+  <li>C/C++</li>
+  <li>LLVM-based languages (such as Rust and Go)</li>
+</ul>
+
+<p>This broad language support enables developers to leverage existing codebases and libraries written in different languages, fostering code reuse and interoperability.</p>
+
+<h2 id="use-cases-of-graalvm">Use Cases of GraalVM</h2>
+
+<h3 id="microservices-architecture">Microservices Architecture</h3>
+
+<p>GraalVM is well-suited for microservices architectures, where developers often use multiple programming languages and frameworks to build modular and scalable applications. By providing polyglot support and native image generation, GraalVM simplifies the development and deployment of microservices, leading to improved performance and resource utilization.</p>
+
+<h3 id="cloud-native-applications">Cloud-Native Applications</h3>
+
+<p>GraalVM’s native image generation feature makes it an ideal choice for building cloud-native applications that require fast startup times and low memory footprint. By creating lightweight, standalone executables, GraalVM enables developers to deploy applications more efficiently in cloud environments, resulting in improved scalability and cost-effectiveness.</p>
+
+<h3 id="performance-optimization">Performance Optimization</h3>
+
+<p>GraalVM’s optimizing compiler technology and support for AOT compilation help developers optimize the performance of their applications across different languages. By generating highly optimized native code, GraalVM improves application responsiveness and throughput, making it suitable for latency-sensitive and high-throughput workloads.</p>
+
+<h2 id="future-directions-and-community-involvement">Future Directions and Community Involvement</h2>
+
+<p>The GraalVM project continues to evolve through active community involvement and contributions. Future developments may include enhancements to language support, performance optimizations, and integration with emerging technologies and frameworks. Developers are encouraged to participate in the GraalVM community to shape the future direction of the project and contribute to its success.</p>
+
+<p>In conclusion, GraalVM is a versatile runtime environment that offers polyglot execution, high performance, and native image generation capabilities. By supporting multiple programming languages and execution modes, GraalVM empowers developers to build efficient, scalable, and interoperable applications for a wide range of use cases and environments.</p>
+
+<p><br /></p>
+
+<h1 id="understanding-truffle-language-implementation-api">Understanding Truffle Language Implementation API</h1>
+
+<p>The Truffle Language Implementation API (LIA) is a framework that provides developers with tools and utilities for building custom programming languages on the Ethereum blockchain. Developed as part of the Truffle Suite, a popular development framework for Ethereum dApps (decentralized applications), the Truffle LIA simplifies the process of creating and deploying domain-specific languages (DSLs) tailored to smart contract development.</p>
+
+<h2 id="overview-of-truffle-language-implementation-api-lia">Overview of Truffle Language Implementation API (LIA)</h2>
+
+<p>Truffle LIA offers a comprehensive set of features and functionalities to facilitate the development of DSLs for Ethereum smart contracts. It provides abstractions and utilities for defining language syntax, semantics, and execution environments, allowing developers to focus on language design and implementation without getting bogged down in low-level details.</p>
+
+<h2 id="key-components-of-truffle-language-implementation-api-lia">Key Components of Truffle Language Implementation API (LIA)</h2>
+
+<ol>
+  <li>
+    <p><strong>Grammar Definition:</strong> Truffle LIA enables developers to define the syntax and grammar of their custom programming languages using standard notation such as Extended Backus-Naur Form (EBNF). This grammar definition serves as the foundation for parsing and interpreting source code written in the DSL.</p>
+  </li>
+  <li>
+    <p><strong>Parser Generation:</strong> Truffle LIA includes tools for automatically generating parsers from grammar definitions. These parsers transform input source code into abstract syntax trees (ASTs), which represent the structure and semantics of the code in a hierarchical format.</p>
+  </li>
+  <li>
+    <p><strong>AST Manipulation:</strong> Truffle LIA provides APIs and utilities for manipulating ASTs programmatically. Developers can traverse, analyze, and transform ASTs to implement custom language features, perform optimizations, and generate bytecode or intermediate representations for execution on the Ethereum Virtual Machine (EVM).</p>
+  </li>
+  <li>
+    <p><strong>Integration with Truffle Suite:</strong> Truffle LIA seamlessly integrates with other components of the Truffle Suite, such as Truffle Contracts and Truffle Debugger. This integration enables developers to leverage existing tools and workflows for smart contract development while building and testing DSLs.</p>
+  </li>
+</ol>
+
+<h2 id="use-cases-of-truffle-language-implementation-api-lia">Use Cases of Truffle Language Implementation API (LIA)</h2>
+
+<p>The Truffle LIA can be applied to various use cases in Ethereum smart contract development, including:</p>
+
+<ul>
+  <li>
+    <p><strong>Domain-Specific Languages (DSLs):</strong> Developers can use Truffle LIA to create DSLs tailored to specific application domains, such as finance, supply chain management, or gaming. These DSLs can encapsulate domain-specific logic and constraints, making smart contract development more accessible and intuitive for domain experts.</p>
+  </li>
+  <li>
+    <p><strong>Custom Language Extensions:</strong> Truffle LIA enables developers to extend existing smart contract languages, such as Solidity or Vyper, with custom syntax and semantics. This capability allows for the creation of high-level abstractions, language features, and domain-specific optimizations to improve developer productivity and code readability.</p>
+  </li>
+  <li>
+    <p><strong>Experimental Language Research:</strong> Researchers and academics can leverage Truffle LIA to experiment with new programming language concepts and paradigms in the context of Ethereum smart contracts. By prototyping and evaluating custom language designs, researchers can explore novel approaches to contract development and blockchain interoperability.</p>
+  </li>
+</ul>
+
+<h2 id="future-directions-and-active-development">Future Directions and Active Development</h2>
+
+<p>The Truffle team continues to enhance and expand the capabilities of the Language Implementation API, incorporating feedback from the developer community and addressing emerging needs and trends in smart contract development. Future updates may include support for additional language features, improved tooling integration, and optimizations for performance and security.</p>
+
+<p>In conclusion, the Truffle Language Implementation API (LIA) empowers developers to build custom programming languages for Ethereum smart contract development with ease and flexibility. By providing a robust framework for language design, parsing, and execution, Truffle LIA enables innovation and experimentation in blockchain-based application development, driving the evolution of decentralized ecosystems.</p>
+
+<p><br /></p>
+
+
+</div>
+
+<div class="about">
+    <div class="about__devider">*****</div>
+    <div class="about__text">
+        Written by <strong>  Sheikh Imtiaz Ahmed </strong>
+        on <strong>05 May 2021</strong>
+    </div>
+</div>
+
+<!-- <ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/cstheory/2022/04/10/actor-model.html">
+                <span class="post-teaser__title">Unraveling the Actor Model</span>
+                <span class="post-teaser__date">10 April 2022</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/cstheory/2021/05/05/the-gayeebi-lang.html">
+                <span class="post-teaser__title">The Gayeebi Lang: Part 1</span>
+                <span class="post-teaser__date">05 May 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/engineering/2021/04/29/smart-contracts.html">
+                <span class="post-teaser__title">Understanding Smart Contracts</span>
+                <span class="post-teaser__date">29 April 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/reflections/2017/10/20/would-it-help.html">
+                <span class="post-teaser__title">Would it help!</span>
+                <span class="post-teaser__date">20 October 2017</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/reflections/2016/08/27/jogi-para-mess.html">
+                <span class="post-teaser__title">“কিছু কথা” যোগীপাড়াবাসীর</span>
+                <span class="post-teaser__date">27 August 2016</span>
+            </a>
+        </li>
+    
+</ul>
+
+ -->
+
+
+
+<!-- <div class="explore">
+    <div class="explore__devider">*****</div>
+    <div class="explore__label">Explore the different categories</div>
+    <ul class="categories">
+        
+            <li class="categories__item"><a href="/categories/cstheory">CS Theory</a></li>
+        
+            <li class="categories__item"><a href="/categories/engineering">Engineering</a></li>
+        
+            <li class="categories__item"><a href="/categories/reflections">Reflections</a></li>
+        
+		<li class="categories__item"><a href="/">All</a></li>
+    </ul>
+</div>
+ -->
+
+        </div>
+
+        <script src="/assets/vendor/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X2KNM8Y91Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X2KNM8Y91Y');
+</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'G-X2KNM8Y91Y', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    </body>
+</html>

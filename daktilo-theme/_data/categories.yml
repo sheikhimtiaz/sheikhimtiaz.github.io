@@ -7,13 +7,19 @@
 # - slug: knative
 #   name: Knative
 
-- slug: softwares
-  name: Softwares
+# - slug: softwares
+#   name: Softwares
 
-- slug: story
-  name: Stories
+- slug: cstheory
+  name: CS Theory
 
-- slug: rant
-  name: Rants
+- slug: engineering
+  name: Engineering
+  
+- slug: reflections
+  name: Reflections
+
+# - slug: rant
+#   name: Rants
 
 

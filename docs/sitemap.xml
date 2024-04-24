@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.me/softwares/2022/04/10/actor-model.html/</loc>
+      <loc>http://sheikhimtiaz.me/cstheory/2022/04/10/actor-model.html/</loc>
       
         <lastmod>2022-04-10T06:00:01+06:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.me/softwares/2021/05/05/the-gayeebi-lang.html/</loc>
+      <loc>http://sheikhimtiaz.me/cstheory/2021/05/05/the-gayeebi-lang.html/</loc>
       
         <lastmod>2021-05-05T06:00:01+06:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.me/softwares/2021/04/29/smart-contracts.html/</loc>
+      <loc>http://sheikhimtiaz.me/engineering/2021/04/29/smart-contracts.html/</loc>
       
         <lastmod>2021-04-29T06:00:01+06:00</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.me/rant/2017/10/20/would-it-help.html/</loc>
+      <loc>http://sheikhimtiaz.me/reflections/2017/10/20/would-it-help.html/</loc>
       
         <lastmod>2017-10-20T06:00:01+06:00</lastmod>
       
@@ -63,7 +63,7 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.me/rant/2016/08/27/jogi-para-mess.html/</loc>
+      <loc>http://sheikhimtiaz.me/reflections/2016/08/27/jogi-para-mess.html/</loc>
       
         <lastmod>2016-08-27T06:00:01+06:00</lastmod>
       
@@ -83,7 +83,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/about/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -98,7 +98,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/actor-model/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -113,7 +113,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/akka/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -128,7 +128,22 @@
     <url>
       <loc>http://sheikhimtiaz.me/blog/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://sheikhimtiaz.me/categories/cstheory/</loc>
+      
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -143,7 +158,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/design/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -158,7 +173,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/engineering/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -175,7 +190,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -190,7 +205,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/knative/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -207,7 +222,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/productivity/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -222,7 +237,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/projects/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -235,9 +250,9 @@
   
     
     <url>
-      <loc>http://sheikhimtiaz.me/categories/rant/</loc>
+      <loc>http://sheikhimtiaz.me/categories/reflections/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -256,7 +271,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/softwares/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -271,7 +286,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/story/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -286,7 +301,7 @@
     <url>
       <loc>http://sheikhimtiaz.me/categories/tools/</loc>
       
-        <lastmod>2023-05-04T19:34:52+06:00</lastmod>
+        <lastmod>2024-04-24T16:59:14+06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

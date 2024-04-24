@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Understanding Smart Contracts — Dhaka 2021 &raquo;  Sheikh Imtiaz Ahmed</title>
+<meta name="description" content="Polyglot Programmer, Computer Scientist, Enterprise and Cloud Software Engineer.
+">
+<meta name="keywords" content="">
+<link rel="canonical" href="http://sheikhimtiaz.me/engineering/2021/04/29/smart-contracts.html">
+        
+
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Understanding Smart Contracts" />
+<meta name="twitter:description" content="Polyglot Programmer, Computer Scientist, Enterprise and Cloud Software Engineer.
+" />
+<meta name="twitter:image" content="http://sheikhimtiaz.me" />
+
+<!-- Google plus -->
+<meta name="author" content="https://www.google.com/+SheikhImtiazAhmed">
+<link rel="author" href="https://www.google.com/+SheikhImtiazAhmed">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Understanding Smart Contracts">
+<meta property="og:description" content="Polyglot Programmer, Computer Scientist, Enterprise and Cloud Software Engineer.
+">
+<meta property="og:url" content="http://sheikhimtiaz.me/engineering/2021/04/29/smart-contracts.html">
+<meta property="og:site_name" content="Sheikh Imtiaz Ahmed">
+
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" type='text/css'>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+
+  <link rel="stylesheet" href="/assets/vendor/highlight/styles/solarized_dark.css">
+
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="navigation">
+        <a href="/" class="logo">Sheikh Imtiaz Ahmed</a>
+
+        <ul class="menu">
+            <li class="menu__entry"><a href="/about">About</a></li>
+            <li class="menu__entry"><a href="/projects">Projects</a></li>
+            <li class="menu__entry"><a href="/blog">Blog</a></li>
+        </ul>
+    </div>
+
+    <ul class="social-links">
+
+        
+            <a href="https://linkedin.com/in/sheikhimtiaz" class="social-links__entry" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        
+
+        
+            <a href="https://twitter.com/_sheikhimtiaz" class="social-links__entry" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        
+
+        
+            <a href="https://github.com/sheikhimtiaz" class="social-links__entry" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        
+
+        <a href="https://discord.gg/FhKSjmg" class="social-links__entry discord-icon">
+            <img  style="margin: 0px;" src="/assets/discord.png"/>
+        </a>
+
+    </ul>
+</header>
+
+
+            <h1 class="page-title post-title">
+    <div class="page-title__text post-title__text">Understanding Smart Contracts</div>
+    <div class="page-title__subtitle post-title__subtitle">Dhaka 2021</div>
+</h1>
+
+
+
+<div class="content">
+    <p>In the realm of blockchain technology, smart contracts have emerged as a revolutionary concept, promising to reshape traditional agreements and transactions. In this comprehensive guide, we delve into what smart contracts are, how to write them, where to deploy them, and explore their diverse use cases across various industries.</p>
+
+<h2 id="what-is-a-smart-contract">What is a Smart Contract?</h2>
+
+<p>At its core, a smart contract is a self-executing contract with the terms of the agreement directly written into code. These contracts run on a blockchain network and automatically enforce the terms of the agreement without the need for intermediaries. The immutable nature of blockchain ensures that once deployed, the contract’s code cannot be altered, providing security and transparency to all parties involved.</p>
+
+<h2 id="how-to-write-smart-contracts">How to Write Smart Contracts</h2>
+
+<p>Writing smart contracts typically involves programming in languages specifically designed for blockchain development, such as Solidity for Ethereum. Developers define the conditions and actions of the contract, including triggers for execution and instructions for handling various scenarios. Smart contracts must be rigorously tested to ensure their functionality and security before deployment on the blockchain.</p>
+
+<h2 id="example-writing-a-simple-smart-contract-in-solidity">Example: Writing a Simple Smart Contract in Solidity</h2>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="c1">// SPDX-License-Identifier: MIT</span>
+<span class="n">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="o">.</span><span class="mi">0</span><span class="o">;</span>
+
+<span class="n">contract</span> <span class="nc">SimpleSmartContract</span> <span class="o">{</span>
+    <span class="c1">// Define a state variable to store a message</span>
+    <span class="n">string</span> <span class="kd">private</span> <span class="n">message</span><span class="o">;</span>
+
+    <span class="c1">// Function to set the message</span>
+    <span class="n">function</span> <span class="nf">setMessage</span><span class="o">(</span><span class="n">string</span> <span class="n">memory</span> <span class="n">_message</span><span class="o">)</span> <span class="kd">public</span> <span class="o">{</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="n">_message</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="c1">// Function to get the message</span>
+    <span class="n">function</span> <span class="nf">getMessage</span><span class="o">()</span> <span class="kd">public</span> <span class="n">view</span> <span class="nf">returns</span> <span class="o">(</span><span class="n">string</span> <span class="n">memory</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">message</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>In this example, we create a simple smart contract using Solidity. The contract allows users to set and get a message stored on the blockchain.</p>
+
+<h2 id="where-to-deploy-smart-contracts">Where to Deploy Smart Contracts</h2>
+
+<p>Smart contracts are deployed on blockchain networks, with Ethereum being one of the most popular platforms for their implementation. Ethereum’s decentralized platform allows developers to deploy smart contracts on its blockchain, enabling global access and execution. Other blockchain platforms, such as Binance Smart Chain and Cardano, also support smart contracts, each offering unique features and capabilities.</p>
+
+<h2 id="use-cases-of-smart-contracts">Use Cases of Smart Contracts</h2>
+
+<p>The potential applications of smart contracts are vast and varied, spanning across numerous industries. Here are some prominent use cases:</p>
+
+<p>Finance and Banking: Smart contracts can automate processes such as loan issuance, insurance claims, and decentralized finance (DeFi) protocols, enabling faster and more efficient transactions while reducing the need for intermediaries.
+Supply Chain Management: By recording every step of a product’s journey on a blockchain, smart contracts enhance transparency and traceability, reducing fraud and ensuring product authenticity.
+Real Estate: Smart contracts can streamline property transactions by automating tasks such as title transfers, escrow agreements, and rental payments, eliminating the need for traditional intermediaries like real estate agents and lawyers.
+Healthcare: In healthcare, smart contracts can facilitate secure and transparent sharing of patient data among healthcare providers while ensuring compliance with privacy regulations.
+Legal Industry: Smart contracts have the potential to revolutionize the legal industry by automating contract execution, dispute resolution, and intellectual property rights management.
+Gaming and Entertainment: Smart contracts can power decentralized gaming platforms, enabling transparent and secure in-game transactions, digital asset ownership, and provably fair gaming experiences.</p>
+
+<p>In conclusion, smart contracts represent a paradigm shift in the way agreements and transactions are executed, offering efficiency, security, and transparency in various sectors. By understanding the fundamentals of smart contracts, mastering their development, and exploring their diverse use cases, individuals and businesses can harness the full potential of blockchain technology to innovate and transform industries.</p>
+
+
+</div>
+
+<div class="about">
+    <div class="about__devider">*****</div>
+    <div class="about__text">
+        Written by <strong>  Sheikh Imtiaz Ahmed </strong>
+        on <strong>29 April 2021</strong>
+    </div>
+</div>
+
+<!-- <ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/cstheory/2022/04/10/actor-model.html">
+                <span class="post-teaser__title">Unraveling the Actor Model</span>
+                <span class="post-teaser__date">10 April 2022</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/cstheory/2021/05/05/the-gayeebi-lang.html">
+                <span class="post-teaser__title">The Gayeebi Lang: Part 1</span>
+                <span class="post-teaser__date">05 May 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/engineering/2021/04/29/smart-contracts.html">
+                <span class="post-teaser__title">Understanding Smart Contracts</span>
+                <span class="post-teaser__date">29 April 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/reflections/2017/10/20/would-it-help.html">
+                <span class="post-teaser__title">Would it help!</span>
+                <span class="post-teaser__date">20 October 2017</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/reflections/2016/08/27/jogi-para-mess.html">
+                <span class="post-teaser__title">“কিছু কথা” যোগীপাড়াবাসীর</span>
+                <span class="post-teaser__date">27 August 2016</span>
+            </a>
+        </li>
+    
+</ul>
+
+ -->
+
+
+
+<!-- <div class="explore">
+    <div class="explore__devider">*****</div>
+    <div class="explore__label">Explore the different categories</div>
+    <ul class="categories">
+        
+            <li class="categories__item"><a href="/categories/cstheory">CS Theory</a></li>
+        
+            <li class="categories__item"><a href="/categories/engineering">Engineering</a></li>
+        
+            <li class="categories__item"><a href="/categories/reflections">Reflections</a></li>
+        
+		<li class="categories__item"><a href="/">All</a></li>
+    </ul>
+</div>
+ -->
+
+        </div>
+
+        <script src="/assets/vendor/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X2KNM8Y91Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X2KNM8Y91Y');
+</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'G-X2KNM8Y91Y', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    </body>
+</html>

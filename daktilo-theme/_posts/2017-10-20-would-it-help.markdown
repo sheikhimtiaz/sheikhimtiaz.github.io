@@ -3,7 +3,7 @@ layout: post
 title:  Would it help!
 subtitle: "Sylhet 2017"
 date:   2017-10-20 0:00:01
-categories: [rant]
+categories: [reflections]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About Me
-subsubtitle: I have decided to pick something a little more humble
+title: Hello there!
+subsubtitle: Senior Software Engineer @ Wind.APP | AWS, JVM, Spring boot, Nestjs
 subtitle: Enterprise and Cloud Software Engineer
 permalink: /about/
 ---
