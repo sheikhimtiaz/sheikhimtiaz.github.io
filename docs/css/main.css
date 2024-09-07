@@ -120,8 +120,8 @@ strong {
 
 /* =Titles */
 .page-title {
-  margin-top: 100px;
-  margin-bottom: 125px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -137,7 +137,7 @@ strong {
 }
 
 .post-title {
-  margin-bottom: 110px;
+  margin-bottom: 40px;
 }
 
 .post-title__text {

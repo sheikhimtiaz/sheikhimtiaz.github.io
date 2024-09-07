@@ -6,9 +6,23 @@
 </description>
     <link>http://sheikhimtiaz.me/</link>
     <atom:link href="http://sheikhimtiaz.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Apr 2024 16:59:14 +0600</pubDate>
-    <lastBuildDate>Wed, 24 Apr 2024 16:59:14 +0600</lastBuildDate>
+    <pubDate>Sat, 07 Sep 2024 18:28:18 +0600</pubDate>
+    <lastBuildDate>Sat, 07 Sep 2024 18:28:18 +0600</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Scala: Learning Materials</title>
+        <description>&lt;p&gt;Here are the concepts to get started with scala.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 07 Sep 2024 06:00:01 +0600</pubDate>
+        <link>http://sheikhimtiaz.me/engineering/2024/09/07/scala-learning.html</link>
+        <guid isPermaLink="true">http://sheikhimtiaz.me/engineering/2024/09/07/scala-learning.html</guid>
+        
+        
+        <category>engineering</category>
+        
+      </item>
     
       <item>
         <title>Unraveling the Actor Model</title>
@@ -344,8 +358,8 @@ Gaming and Entertainment: Smart contracts can power decentralized gaming platfor
 
 </description>
         <pubDate>Sat, 27 Aug 2016 06:00:01 +0600</pubDate>
-        <link>http://sheikhimtiaz.me/reflections/2016/08/27/jogi-para-mess.html</link>
-        <guid isPermaLink="true">http://sheikhimtiaz.me/reflections/2016/08/27/jogi-para-mess.html</guid>
+        <link>http://sheikhimtiaz.me/reflections/2016/08/27/jogi-para.html</link>
+        <guid isPermaLink="true">http://sheikhimtiaz.me/reflections/2016/08/27/jogi-para.html</guid>
         
         
         <category>reflections</category>

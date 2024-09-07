@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 
-subtitle: 
+subtitle: "Disclaimer: Not a nastek blogger!"
 permalink: /blog/
 ---
 

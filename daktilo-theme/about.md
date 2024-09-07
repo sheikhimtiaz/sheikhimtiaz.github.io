@@ -1,7 +1,8 @@
 ---
 layout: about
 title: Hello there!
-subsubtitle: Senior Software Engineer @ Wind.APP | AWS, JVM, Spring boot, Nestjs
+subsubtitle: "TLDR # JVM & AWS"
+# subsubtitle: Senior Software Engineer | Java, Scala, Spring Boot, Javascript, Nodejs, Postgresql, AWS
 subtitle: Enterprise and Cloud Software Engineer
 permalink: /about/
 ---
